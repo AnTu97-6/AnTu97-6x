@@ -802,7 +802,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         pre = ""
         post = ""
         name = "Posts"
-        url = "/posts/"
+        url = "/../../AnTu97-6x/en/posts/"
         title = ""
       [[languages.en.menu.main]]
         weight = 2
