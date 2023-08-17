@@ -806,6 +806,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         title = ""
       [[languages.en.menu.main]]
         weight = 2
+        contentDir = content/tags/content/
         identifier = "tags"
         pre = ""
         post = ""
