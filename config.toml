@@ -790,7 +790,6 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 # Markup related configuration in Hugo
 [languages]
   [languages.en]
-    contentDir = production/en
     weight = 1
     languageCode = "en"
     languageName = "English"
@@ -803,7 +802,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         pre = ""
         post = ""
         name = "Posts"
-        url = "/en/posts/"
+        url = "production/en/posts/"
         title = ""
       [[languages.en.menu.main]]
         weight = 2
