@@ -802,7 +802,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         pre = ""
         post = ""
         name = "Posts"
-        url = "posts/"
+        url = "posts"
         title = ""
       [[languages.en.menu.main]]
         weight = 2
@@ -810,7 +810,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         pre = ""
         post = ""
         name = "Tags"
-        url = "/en/tags/"
+        url = "tags"
         title = ""
       [[languages.en.menu.main]]
         weight = 3
@@ -818,7 +818,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         pre = ""
         post = ""
         name = "Categories"
-        url = "/en/categories/"
+        url = "categories"
         title = ""
       #[[languages.en.menu.main]]
       #  weight = 6
