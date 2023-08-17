@@ -5,7 +5,7 @@ baseURL = "https://antu97-6.github.io/AnTu97-6x/"
 theme = ""
 # themes directory
 # 主题目录
-themesDir = ""
+themesDir = "../.."
 
 # website title
 # 网站标题
@@ -513,7 +513,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         pageSize = 15
         # automatically adapt the current theme i18n configuration when empty
         # 为空时自动适配当前主题 i18n 配置
-        lang = ""
+        #lang = ""
         visitor = true
         recordIP = true
         highlight = true
@@ -796,7 +796,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     hasCJKLanguage = false
     copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
     [languages.en.menu]
-      [[languages.en.menu.main]]
+      [[languages.en.menu.main]]        
         weight = 1
         identifier = "posts"
         pre = ""
