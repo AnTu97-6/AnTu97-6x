@@ -1,4 +1,4 @@
-baseURL = "https://antu97-6.github.io/AnTu97-6x"
+baseURL = "https:/antu97-6.github.io/AnTu97-6x"
 
 # theme
 # 主题
@@ -790,6 +790,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 # Markup related configuration in Hugo
 [languages]
   [languages.en]
+    contentDir = "production/en"
     weight = 1
     languageCode = "en"
     languageName = "English"
