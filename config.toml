@@ -819,7 +819,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         pre = ""
         post = ""
         name = "Categories"
-        url = "/categories/"
+        url = "categories"
         title = ""
       #[[languages.en.menu.main]]
       #  weight = 6
