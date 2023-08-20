@@ -29,7 +29,7 @@ hasCJKLanguage = false
 paginate = 12
 # google analytics code [UA-XXXXXXXX-X]
 # 谷歌分析代号 [UA-XXXXXXXX-X]
-googleAnalytics = ""
+googleAnalytics = "G-JZJ8R9MHR6"
 # copyright description used only for seo schema
 # 版权描述，仅仅用于 SEO
 copyright = ""
@@ -648,16 +648,16 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   # Analytics config
   # 网站分析配置
   [params.analytics]
-    enable = false
+    enable = true
     # Google Analytics
     [params.analytics.google]
-      id = ""
+      id = "G-JZJ8R9MHR6"
       # whether to anonymize IP
       # 是否匿名化用户 IP
       anonymizeIP = true
     # Fathom Analytics
     [params.analytics.fathom]
-      id = ""
+      id = "G-JZJ8R9MHR6"
       # server url for your tracker if you're self hosting
       # 自行托管追踪器时的主机路径
       server = ""
@@ -666,7 +666,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       dataDomain = ""
     # Yandex Metrica
     [params.analytics.yandexMetrica]
-      id = ""
+      id = "G-JZJ8R9MHR6"
 
   # Cookie consent config
   # Cookie 许可配置
@@ -829,16 +829,16 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       #  name = ""
       #  url = "https://github.com/dillonzq/LoveIt"
       #  title = "GitHub"
-    #[languages.en.params]
-     # [languages.en.params.search]
-#	enable = true
- #       type = "algolia"
-  #      contentLength = 4000
-   #     placeholder = ""
-    #    maxResultLength = 10
-     #   snippetLength = 30
-      #  highlightTag = "em"
-      #  absoluteURL = false
+   # [languages.en.params]
+      #[languages.en.params.search]
+	#enable = true
+        #type = "lunr"
+        #contentLength = 4000
+        #placeholder = ""
+        #maxResultLength = 10
+        #snippetLength = 30
+        #highlightTag = "em"
+        #absoluteURL = false
        # [languages.es.params.search.algolia]
         #  index = false
         #  appID = "PASDMWALPK"
