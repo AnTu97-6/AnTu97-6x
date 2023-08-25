@@ -3,19 +3,20 @@
         <title>Walkthrough - Tag - AnTu97-6</title>
         <link>https:/antu97-6.github.io/AnTu97-6x/en/tags/walkthrough/</link>
         <description>Walkthrough - Tag - AnTu97-6</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 14 Aug 2023 11:24:09 &#43;0200</lastBuildDate><atom:link href="https:/antu97-6.github.io/AnTu97-6x/en/tags/walkthrough/" rel="self" type="application/rss+xml" /><item>
-    <title>Kioptrix Level 1 Walkthrough</title>
-    <link>https:/antu97-6.github.io/AnTu97-6x/en/kioptrix_level_1/</link>
-    <pubDate>Mon, 14 Aug 2023 11:24:09 &#43;0200</pubDate>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 25 Aug 2023 11:24:09 &#43;0200</lastBuildDate><atom:link href="https:/antu97-6.github.io/AnTu97-6x/en/tags/walkthrough/" rel="self" type="application/rss+xml" /><item>
+    <title>Kioptrix Level 3 Walkthrough</title>
+    <link>https:/antu97-6.github.io/AnTu97-6x/en/kioptrix_level_3/</link>
+    <pubDate>Fri, 25 Aug 2023 11:24:09 &#43;0200</pubDate>
     <author>Antu</author>
-    <guid>https:/antu97-6.github.io/AnTu97-6x/en/kioptrix_level_1/</guid>
-    <description><![CDATA[Kioptrix: Level 1 Install if we start the machine by default the network card is in brigded mode and this is not at all recommended so we must change it to NAT mode for this we must go to the configuration file located in the folder of the machine. Look for where it says Brigded and change it to NAT
-1 2 3 4 #change ethernet0.networkName = &#34;Bridged&#34; #to ethernet0.networkName = &#34;NAT&#34; Then we configure our network card as NAT and start.]]></description>
+    <guid>https:/antu97-6.github.io/AnTu97-6x/en/kioptrix_level_3/</guid>
+    <description><![CDATA[Kioptrix Level 3 Machine Resolution Scanning and Vulnerability Analysis We start with a scan of our local network with the arp command to obtain the ip of our target machine.
+1 arp-scan -I eth0 --localnet Once the ip is obtained we proceed to perform a scan with nmap.
+1 nmap -sCV 192.168.66.161 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 Starting Nmap 7.]]></description>
 </item>
 <item>
     <title>Kioptrix Level 2 Walkthrough</title>
     <link>https:/antu97-6.github.io/AnTu97-6x/en/kioptrix_level_2/</link>
-    <pubDate>Mon, 14 Aug 2023 11:24:09 &#43;0200</pubDate>
+    <pubDate>Tue, 22 Aug 2023 11:24:09 &#43;0200</pubDate>
     <author>Antu</author>
     <guid>https:/antu97-6.github.io/AnTu97-6x/en/kioptrix_level_2/</guid>
     <description><![CDATA[Kioptrix Level 2 Setup By default the machine has the network card configured in Bridged mode and it is not recommended so we must configure it in NAT mode which has to be the same interface as our Kali.
@@ -23,14 +24,13 @@ To do this before opening the machine in our VMware we go to the configuration f
 1 2 3 4 #change ethernet0.]]></description>
 </item>
 <item>
-    <title>Kioptrix Level 3 Walkthrough</title>
-    <link>https:/antu97-6.github.io/AnTu97-6x/en/kioptrix_level_3/</link>
+    <title>Kioptrix Level 1 Walkthrough</title>
+    <link>https:/antu97-6.github.io/AnTu97-6x/en/kioptrix_level_1/</link>
     <pubDate>Mon, 14 Aug 2023 11:24:09 &#43;0200</pubDate>
     <author>Antu</author>
-    <guid>https:/antu97-6.github.io/AnTu97-6x/en/kioptrix_level_3/</guid>
-    <description><![CDATA[Kioptrix Level 3 Machine Resolution Scanning and Vulnerability Analysis We start with a scan of our local network with the arp command to obtain the ip of our target machine.
-1 arp-scan -I eth0 --localnet Once the ip is obtained we proceed to perform a scan with nmap.
-1 nmap -sCV 192.168.66.161 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 Starting Nmap 7.]]></description>
+    <guid>https:/antu97-6.github.io/AnTu97-6x/en/kioptrix_level_1/</guid>
+    <description><![CDATA[Kioptrix: Level 1 Install if we start the machine by default the network card is in brigded mode and this is not at all recommended so we must change it to NAT mode for this we must go to the configuration file located in the folder of the machine. Look for where it says Brigded and change it to NAT
+1 2 3 4 #change ethernet0.networkName = &#34;Bridged&#34; #to ethernet0.networkName = &#34;NAT&#34; Then we configure our network card as NAT and start.]]></description>
 </item>
 </channel>
 </rss>

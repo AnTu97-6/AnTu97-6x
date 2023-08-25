@@ -1,7 +1,7 @@
 ---
 weigth: 1
 title: "Kioptrix Level 2 Walkthrough"
-date: 2023-08-14T11:24:09+02:00
+date: 2023-08-22T11:24:09+02:00
 draft: false
 author: Antu
 publishDate: 2023-08-22
