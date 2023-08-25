@@ -23,5 +23,15 @@ Buscamos Donde ponga Brigded y lo cambiamos por NAT
 Para ello antes de abrir la maquina en nuestro VMware nos dirigimos al archivo de configuración.
 lo abrimos con nuestro editor de texto y cambiamos el nombre de la red por NAT]]></description>
 </item>
+<item>
+    <title>Kioptrix Level 3 Walkthrough</title>
+    <link>https:/antu97-6.github.io/AnTu97-6x/kioptrix_level_3/</link>
+    <pubDate>Mon, 14 Aug 2023 11:24:09 &#43;0200</pubDate>
+    <author>Antu</author>
+    <guid>https:/antu97-6.github.io/AnTu97-6x/kioptrix_level_3/</guid>
+    <description><![CDATA[Kioptrix Level 3 Resolución de la Maquina Escaneo y Análisis de Vulnerabilidades Empezamos con un escaneo a nuestra red local con el comando arp para obtener la ip de nuestra maquina objetivo.
+1 arp-scan -I eth0 --localnet Una vez obtenida la ip procedemos a realizar un escaneo con nmap.
+1 nmap -sCV 192.168.66.161 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 Starting Nmap 7.]]></description>
+</item>
 </channel>
 </rss>

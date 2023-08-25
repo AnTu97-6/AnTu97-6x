@@ -22,5 +22,15 @@
 To do this before opening the machine in our VMware we go to the configuration file. we open it with our text editor and change the network name to NAT
 1 2 3 4 #change ethernet0.]]></description>
 </item>
+<item>
+    <title>Kioptrix Level 3 Walkthrough</title>
+    <link>https:/antu97-6.github.io/AnTu97-6x/en/kioptrix_level_3/</link>
+    <pubDate>Mon, 14 Aug 2023 11:24:09 &#43;0200</pubDate>
+    <author>Antu</author>
+    <guid>https:/antu97-6.github.io/AnTu97-6x/en/kioptrix_level_3/</guid>
+    <description><![CDATA[Kioptrix Level 3 Machine Resolution Scanning and Vulnerability Analysis We start with a scan of our local network with the arp command to obtain the ip of our target machine.
+1 arp-scan -I eth0 --localnet Once the ip is obtained we proceed to perform a scan with nmap.
+1 nmap -sCV 192.168.66.161 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 Starting Nmap 7.]]></description>
+</item>
 </channel>
 </rss>
