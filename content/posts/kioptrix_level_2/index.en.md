@@ -4,7 +4,7 @@ title: "Kioptrix Level 2 Walkthrough"
 date: 2023-08-14T11:24:09+02:00
 draft: false
 author: Antu
-publishDate: 2023-08-14
+publishDate: 2023-08-22
 tags: ["Walkthrough", "Vulnhub", "TjNull", "OSCP", "Easy"]
 categories: ["Vulnhub"]
 images: []
