@@ -3,7 +3,17 @@
         <title>Easy - Tag - AnTu97-6</title>
         <link>https:/antu97-6.github.io/AnTu97-6x/en/tags/easy/</link>
         <description>Easy - Tag - AnTu97-6</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 25 Aug 2023 11:24:09 &#43;0200</lastBuildDate><atom:link href="https:/antu97-6.github.io/AnTu97-6x/en/tags/easy/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 02 Sep 2023 11:24:09 &#43;0200</lastBuildDate><atom:link href="https:/antu97-6.github.io/AnTu97-6x/en/tags/easy/" rel="self" type="application/rss+xml" /><item>
+    <title>Kioptrix Level 5 Walkthrough</title>
+    <link>https:/antu97-6.github.io/AnTu97-6x/en/kioptrix_level_5/</link>
+    <pubDate>Sat, 02 Sep 2023 11:24:09 &#43;0200</pubDate>
+    <author>Antu</author>
+    <guid>https:/antu97-6.github.io/AnTu97-6x/en/kioptrix_level_5/</guid>
+    <description><![CDATA[Kioptrix level 5 Setup For the machine to assign an ip you must remove the network adapter and add it again.
+Resolution Vulnerability scanning and analysis I start by doing a scan of the local network with arp-scan to discover the ip of the target machine.
+1 2 3 4 arp-scan -I eth0 --localnet -I -&gt; indicate the interface --localnet -&gt; we indicate to generate addresses from the interface configuration. I get that the ip of my target is 192.]]></description>
+</item>
+<item>
     <title>Kioptrix Level 3 Walkthrough</title>
     <link>https:/antu97-6.github.io/AnTu97-6x/en/kioptrix_level_3/</link>
     <pubDate>Fri, 25 Aug 2023 11:24:09 &#43;0200</pubDate>

@@ -3,7 +3,17 @@
         <title>OSCP - Etiqueta - AnTu97-6</title>
         <link>https:/antu97-6.github.io/AnTu97-6x/tags/oscp/</link>
         <description>OSCP - Etiqueta - AnTu97-6</description>
-        <generator>Hugo -- gohugo.io</generator><language>es</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 25 Aug 2023 11:24:09 &#43;0200</lastBuildDate><atom:link href="https:/antu97-6.github.io/AnTu97-6x/tags/oscp/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>es</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 02 Sep 2023 11:24:09 &#43;0200</lastBuildDate><atom:link href="https:/antu97-6.github.io/AnTu97-6x/tags/oscp/" rel="self" type="application/rss+xml" /><item>
+    <title>Kioptrix Level 5 Walkthrough</title>
+    <link>https:/antu97-6.github.io/AnTu97-6x/kioptrix_level_5/</link>
+    <pubDate>Sat, 02 Sep 2023 11:24:09 &#43;0200</pubDate>
+    <author>Antu</author>
+    <guid>https:/antu97-6.github.io/AnTu97-6x/kioptrix_level_5/</guid>
+    <description><![CDATA[Kioptrix level 5 Configuración Para que la maquina asigne una ip hay que eliminar el adaptador de red y volver a añadirlo.
+Resolución Escaneo y nalisis de Vulnerabilidades Comienzo haciendo un escaneo de la red local con arp-scan para descubrir la ip de la maquina objetivo.
+1 2 3 4 arp-scan -I eth0 --localnet -I -&gt; indicamos la interfaz de red --localnet -&gt; indicamos que genere direcciones desde la configuración de la interfaz.]]></description>
+</item>
+<item>
     <title>Kioptrix Level 3 Walkthrough</title>
     <link>https:/antu97-6.github.io/AnTu97-6x/kioptrix_level_3/</link>
     <pubDate>Fri, 25 Aug 2023 11:24:09 &#43;0200</pubDate>
