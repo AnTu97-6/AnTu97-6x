@@ -2,7 +2,25 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https:/antu97-6.github.io/AnTu97-6x/</loc><lastmod>2023-09-23T11:24:09&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https:/antu97-6.github.io/AnTu97-6x/tags/active-directory/</loc><lastmod>2023-11-08T11:24:09&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https:/antu97-6.github.io/AnTu97-6x/en/tags/active-directory/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="es"
+                    href="https:/antu97-6.github.io/AnTu97-6x/tags/active-directory/"
+                    /></url><url>
+            <loc>https:/antu97-6.github.io/AnTu97-6x/tags/ad/</loc><lastmod>2023-11-08T11:24:09&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https:/antu97-6.github.io/AnTu97-6x/en/tags/ad/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="es"
+                    href="https:/antu97-6.github.io/AnTu97-6x/tags/ad/"
+                    /></url><url>
+            <loc>https:/antu97-6.github.io/AnTu97-6x/</loc><lastmod>2023-11-08T11:24:09&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https:/antu97-6.github.io/AnTu97-6x/en/"
@@ -11,7 +29,7 @@
                     hreflang="es"
                     href="https:/antu97-6.github.io/AnTu97-6x/"
                     /></url><url>
-            <loc>https:/antu97-6.github.io/AnTu97-6x/categories/</loc><lastmod>2023-09-23T11:24:09&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https:/antu97-6.github.io/AnTu97-6x/categories/</loc><lastmod>2023-11-08T11:24:09&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https:/antu97-6.github.io/AnTu97-6x/en/categories/"
@@ -20,88 +38,7 @@
                     hreflang="es"
                     href="https:/antu97-6.github.io/AnTu97-6x/categories/"
                     /></url><url>
-            <loc>https:/antu97-6.github.io/AnTu97-6x/dc-9/</loc><lastmod>2023-09-23T11:24:09&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="https:/antu97-6.github.io/AnTu97-6x/en/dc-9/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="es"
-                    href="https:/antu97-6.github.io/AnTu97-6x/dc-9/"
-                    /></url><url>
-            <loc>https:/antu97-6.github.io/AnTu97-6x/tags/medium/</loc><lastmod>2023-09-23T11:24:09&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="https:/antu97-6.github.io/AnTu97-6x/en/tags/medium/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="es"
-                    href="https:/antu97-6.github.io/AnTu97-6x/tags/medium/"
-                    /></url><url>
-            <loc>https:/antu97-6.github.io/AnTu97-6x/tags/oscp/</loc><lastmod>2023-09-23T11:24:09&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="https:/antu97-6.github.io/AnTu97-6x/en/tags/oscp/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="es"
-                    href="https:/antu97-6.github.io/AnTu97-6x/tags/oscp/"
-                    /></url><url>
-            <loc>https:/antu97-6.github.io/AnTu97-6x/posts/</loc><lastmod>2023-09-23T11:24:09&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="https:/antu97-6.github.io/AnTu97-6x/en/posts/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="es"
-                    href="https:/antu97-6.github.io/AnTu97-6x/posts/"
-                    /></url><url>
-            <loc>https:/antu97-6.github.io/AnTu97-6x/tags/</loc><lastmod>2023-09-23T11:24:09&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="https:/antu97-6.github.io/AnTu97-6x/en/tags/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="es"
-                    href="https:/antu97-6.github.io/AnTu97-6x/tags/"
-                    /></url><url>
-            <loc>https:/antu97-6.github.io/AnTu97-6x/tags/tjnull/</loc><lastmod>2023-09-23T11:24:09&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="https:/antu97-6.github.io/AnTu97-6x/en/tags/tjnull/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="es"
-                    href="https:/antu97-6.github.io/AnTu97-6x/tags/tjnull/"
-                    /></url><url>
-            <loc>https:/antu97-6.github.io/AnTu97-6x/tags/vulnhub/</loc><lastmod>2023-09-23T11:24:09&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="https:/antu97-6.github.io/AnTu97-6x/en/tags/vulnhub/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="es"
-                    href="https:/antu97-6.github.io/AnTu97-6x/tags/vulnhub/"
-                    /></url><url>
-            <loc>https:/antu97-6.github.io/AnTu97-6x/categories/vulnhub/</loc><lastmod>2023-09-23T11:24:09&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="https:/antu97-6.github.io/AnTu97-6x/en/categories/vulnhub/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="es"
-                    href="https:/antu97-6.github.io/AnTu97-6x/categories/vulnhub/"
-                    /></url><url>
-            <loc>https:/antu97-6.github.io/AnTu97-6x/tags/walkthrough/</loc><lastmod>2023-09-23T11:24:09&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="https:/antu97-6.github.io/AnTu97-6x/en/tags/walkthrough/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="es"
-                    href="https:/antu97-6.github.io/AnTu97-6x/tags/walkthrough/"
-                    /></url><url>
-            <loc>https:/antu97-6.github.io/AnTu97-6x/tags/easy/</loc><lastmod>2023-09-02T10:16:39-04:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority><xhtml:link
+            <loc>https:/antu97-6.github.io/AnTu97-6x/tags/easy/</loc><lastmod>2023-11-08T11:24:09&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https:/antu97-6.github.io/AnTu97-6x/en/tags/easy/"
@@ -110,7 +47,115 @@
                     hreflang="es"
                     href="https:/antu97-6.github.io/AnTu97-6x/tags/easy/"
                     /></url><url>
-            <loc>https:/antu97-6.github.io/AnTu97-6x/kioptrix_level_5/</loc><lastmod>2023-09-02T10:16:39-04:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority><xhtml:link
+            <loc>https:/antu97-6.github.io/AnTu97-6x/categories/hackthebox/</loc><lastmod>2023-11-08T11:24:09&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https:/antu97-6.github.io/AnTu97-6x/en/categories/hackthebox/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="es"
+                    href="https:/antu97-6.github.io/AnTu97-6x/categories/hackthebox/"
+                    /></url><url>
+            <loc>https:/antu97-6.github.io/AnTu97-6x/tags/hackthebox/</loc><lastmod>2023-11-08T11:24:09&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https:/antu97-6.github.io/AnTu97-6x/en/tags/hackthebox/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="es"
+                    href="https:/antu97-6.github.io/AnTu97-6x/tags/hackthebox/"
+                    /></url><url>
+            <loc>https:/antu97-6.github.io/AnTu97-6x/tags/oscp/</loc><lastmod>2023-11-08T11:24:09&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https:/antu97-6.github.io/AnTu97-6x/en/tags/oscp/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="es"
+                    href="https:/antu97-6.github.io/AnTu97-6x/tags/oscp/"
+                    /></url><url>
+            <loc>https:/antu97-6.github.io/AnTu97-6x/posts/</loc><lastmod>2023-11-08T11:24:09&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https:/antu97-6.github.io/AnTu97-6x/en/posts/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="es"
+                    href="https:/antu97-6.github.io/AnTu97-6x/posts/"
+                    /></url><url>
+            <loc>https:/antu97-6.github.io/AnTu97-6x/sauna/</loc><lastmod>2023-11-08T11:24:09&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https:/antu97-6.github.io/AnTu97-6x/en/sauna/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="es"
+                    href="https:/antu97-6.github.io/AnTu97-6x/sauna/"
+                    /></url><url>
+            <loc>https:/antu97-6.github.io/AnTu97-6x/tags/</loc><lastmod>2023-11-08T11:24:09&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https:/antu97-6.github.io/AnTu97-6x/en/tags/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="es"
+                    href="https:/antu97-6.github.io/AnTu97-6x/tags/"
+                    /></url><url>
+            <loc>https:/antu97-6.github.io/AnTu97-6x/tags/tjnull/</loc><lastmod>2023-11-08T11:24:09&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https:/antu97-6.github.io/AnTu97-6x/en/tags/tjnull/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="es"
+                    href="https:/antu97-6.github.io/AnTu97-6x/tags/tjnull/"
+                    /></url><url>
+            <loc>https:/antu97-6.github.io/AnTu97-6x/tags/walkthrough/</loc><lastmod>2023-11-08T11:24:09&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https:/antu97-6.github.io/AnTu97-6x/en/tags/walkthrough/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="es"
+                    href="https:/antu97-6.github.io/AnTu97-6x/tags/walkthrough/"
+                    /></url><url>
+            <loc>https:/antu97-6.github.io/AnTu97-6x/dc-9/</loc><lastmod>2023-09-23T15:38:56-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https:/antu97-6.github.io/AnTu97-6x/en/dc-9/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="es"
+                    href="https:/antu97-6.github.io/AnTu97-6x/dc-9/"
+                    /></url><url>
+            <loc>https:/antu97-6.github.io/AnTu97-6x/tags/medium/</loc><lastmod>2023-09-23T15:38:56-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https:/antu97-6.github.io/AnTu97-6x/en/tags/medium/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="es"
+                    href="https:/antu97-6.github.io/AnTu97-6x/tags/medium/"
+                    /></url><url>
+            <loc>https:/antu97-6.github.io/AnTu97-6x/tags/vulnhub/</loc><lastmod>2023-09-23T15:38:56-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https:/antu97-6.github.io/AnTu97-6x/en/tags/vulnhub/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="es"
+                    href="https:/antu97-6.github.io/AnTu97-6x/tags/vulnhub/"
+                    /></url><url>
+            <loc>https:/antu97-6.github.io/AnTu97-6x/categories/vulnhub/</loc><lastmod>2023-09-23T15:38:56-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https:/antu97-6.github.io/AnTu97-6x/en/categories/vulnhub/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="es"
+                    href="https:/antu97-6.github.io/AnTu97-6x/categories/vulnhub/"
+                    /></url><url>
+            <loc>https:/antu97-6.github.io/AnTu97-6x/kioptrix_level_5/</loc><lastmod>2023-09-02T10:16:39-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https:/antu97-6.github.io/AnTu97-6x/en/kioptrix_level_5/"
@@ -119,7 +164,7 @@
                     hreflang="es"
                     href="https:/antu97-6.github.io/AnTu97-6x/kioptrix_level_5/"
                     /></url><url>
-            <loc>https:/antu97-6.github.io/AnTu97-6x/kioptrix_level_3/</loc><lastmod>2023-08-25T15:39:46-04:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority><xhtml:link
+            <loc>https:/antu97-6.github.io/AnTu97-6x/kioptrix_level_3/</loc><lastmod>2023-08-25T15:39:46-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https:/antu97-6.github.io/AnTu97-6x/en/kioptrix_level_3/"
@@ -128,7 +173,7 @@
                     hreflang="es"
                     href="https:/antu97-6.github.io/AnTu97-6x/kioptrix_level_3/"
                     /></url><url>
-            <loc>https:/antu97-6.github.io/AnTu97-6x/kioptrix_level_2/</loc><lastmod>2023-08-25T15:39:46-04:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority><xhtml:link
+            <loc>https:/antu97-6.github.io/AnTu97-6x/kioptrix_level_2/</loc><lastmod>2023-08-25T15:39:46-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https:/antu97-6.github.io/AnTu97-6x/en/kioptrix_level_2/"
@@ -147,7 +192,7 @@
                     href="https:/antu97-6.github.io/AnTu97-6x/kioptrix_level_1/"
                     /></url><url>
             <loc>https:/antu97-6.github.io/AnTu97-6x/about/</loc><lastmod>2023-08-16T17:38:02-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https:/antu97-6.github.io/AnTu97-6x/tags/content/</loc><lastmod>2023-08-16T17:38:02-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https:/antu97-6.github.io/AnTu97-6x/tags/installation/</loc><lastmod>2023-08-16T17:38:02-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https:/antu97-6.github.io/AnTu97-6x/categories/documentation/</loc><lastmod>2023-08-16T17:38:02-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https:/antu97-6.github.io/AnTu97-6x/tags/configuration/</loc><lastmod>2023-08-16T17:38:02-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url></urlset>
+            <loc>https:/antu97-6.github.io/AnTu97-6x/tags/content/_index.zh-cn/</loc><lastmod>2023-08-16T17:38:02-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https:/antu97-6.github.io/AnTu97-6x/tags/installation/_index.zh-cn/</loc><lastmod>2023-08-16T17:38:02-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https:/antu97-6.github.io/AnTu97-6x/categories/documentation/_index.zh-cn/</loc><lastmod>2023-08-16T17:38:02-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https:/antu97-6.github.io/AnTu97-6x/tags/configuration/_index.zh-cn/</loc><lastmod>2023-08-16T17:38:02-04:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url></urlset>
