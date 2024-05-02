@@ -1,6 +1,6 @@
 ---
 weigth: 1
-title: "Kioptrix Level 1 Walkthrough"
+title: "Crane"
 date: 2024-05-02T11:24:09+02:00
 draft: false
 author: Antu
