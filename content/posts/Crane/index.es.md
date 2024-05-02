@@ -10,7 +10,7 @@ categories: ["Proving Grounds"]
 images: []
 resources: 
 - name: "featured-image"
-  src: "preimagen.png"
+  src: "preimagen.jpeg"
 
 lightgallery: true
 
