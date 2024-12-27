@@ -17,19 +17,19 @@ lightgallery: true
 toc:
   auto: false
 ---
-# Cross Site Request Forgery (CSRF)
+## Cross Site Request Forgery (CSRF)
 
-# Introducción
+## Introducción
 
 En este articulo se va a explicar a modo resumen en que consiste la vulnerabilidad web Cross Site Request Forguery (CSRF) y algunas técnicas de como explotarla en diferentes entornos.
 
 Para la redacción de este articulo me he basado en los laboratorios de [portswigger](https://portswigger.net/) que he realizado para la preparación de su certificación BSCP.
 
-# Definición
+## Definición
 
 Esta vulnerabilidad consiste en llevar a cabo acciones por parte de un usuario sin su consentimiento ni conocimiento como puede ser un cambio de correo dentro de una web a través de un link malicioso generado por el atacante, aprovechándose de una mala configuración de la web vulnerable, que enviara al usuario.
 
-# Condiciones que se deben cumplir
+## Condiciones que se deben cumplir
 
 Para que sea posible la explotación se deben cumplir tres claves:
 
@@ -56,7 +56,7 @@ Se debe obtener la ruta en el que se realiza la acción. (En este ejemplo es **/
 
 Una forma sencilla de generar un exploit CSRF es utilizando la opción de ‘CSRF PoC generator’ de Burpsuite Pro.
 
-# Medidas comunes contra CSRF
+## Medidas comunes contra CSRF
 
 Las medidas mas comunes para defenderse contra los ataques CSRF son:
 
@@ -73,9 +73,9 @@ Las medidas mas comunes para defenderse contra los ataques CSRF son:
     Esta medida es menos efectiva que el CSRF token.
     
 
-# Métodos para eludir el CSRF token
+## Métodos para eludir el CSRF token
 
-## La validación del CSRF Token depende del método de la petición
+### La validación del CSRF Token depende del método de la petición
 
 Algunas aplicaciones solo validan los CSRF-token en peticiones POST y no en las peticiones GET
 
@@ -83,13 +83,13 @@ Cambiando el método a GET y añadiendo los parámetros en la url se puede eludi
 
 Laboratorio  [aquí](https://portswigger.net/web-security/csrf/bypassing-token-validation/lab-token-validation-depends-on-request-method).
 
-## La validación de CSRF Token depende de si esta presente
+### La validación de CSRF Token depende de si esta presente
 
 Algunas aplicaciones solo validan el csrf token cuando esta presente si lo eliminamos completamente puede que no se haga dicha validación, para comprobarlo basta con realizar la petición sin el parámetro del token y observar si se realiza con éxito.
 
 Laboratorio [aquí](https://portswigger.net/web-security/csrf/bypassing-token-validation/lab-token-validation-depends-on-token-being-present).
 
-## El CSRF token no esta vinculado a la sesión
+### El CSRF token no esta vinculado a la sesión
 
 Se puede dar el caso que el token no este vinculado a la sesión y exista una lista de tokens validos, por lo que se puede utilizar el token de la sesión del atacante para explotar la vulnerabilidad.
 
@@ -111,7 +111,7 @@ Una PoC podría ser la siguiente:
 
 Laboratorio  [aquí](https://portswigger.net/web-security/csrf/bypassing-token-validation/lab-token-not-tied-to-user-session).
 
-## El CSRF Token esta vinculado a una cookie distinta a la de sesión
+### El CSRF Token esta vinculado a una cookie distinta a la de sesión
 
 ```jsx
 POST /email/change HTTP/1.1
@@ -152,7 +152,7 @@ En esta PoC se utiliza el csrf y csrfkey del atacante para cambiar la del usuari
 
 Laboratorio [aquí](https://portswigger.net/web-security/csrf/bypassing-token-validation/lab-token-tied-to-non-session-cookie).
 
-## CSRF token duplicado en la cookie.
+### CSRF token duplicado en la cookie.
 
 Se puede dar el caso que el token aparezca duplicado en la cookie y en el parámetro de la petición, cuando la petición se envía, la validación que realiza es que tanto el token de la petición y la cookie sean el mismo, para testear esta vulnerabilidad se debe cambiar el valor del token y la cookie por otro pero que sea el mismo y realizar la petición, si se realiza con éxito es explotable.
 
@@ -180,7 +180,7 @@ Poc:
 
 Laboratorio [aquí](https://portswigger.net/web-security/csrf/bypassing-token-validation/lab-token-duplicated-in-cookie).
 
-# Samesite cookie
+## Samesite cookie
 
 Restricciones SameSite:
 
@@ -192,24 +192,24 @@ Ninguna de estas restricciones garantiza total inmunidad.
 
 Si no hay una restricción asociada a la cookie chrome utiliza Lax por defecto, lo que quiere decir que solo se enviara la cookie si cumple con un criterio.
 
-## Strict
+### Strict
 
 El sitio de la solicitud debe coincidir con el sitio que se muestra actualmente en la barra URL del navegador si no, la cookie no se va a enviar lo que quiere decir que la cookie no se envía entre sitios diferentes.
 
-## Lax
+### Lax
 
 Para que se envíe la cookie la solicitud debe cumplir los siguiente
 
 - Utiliza método GET
 - La solicitud se debe realizar por parte de un usuario(por ejemplo si la realiza un bot no se envia) como al hacer clic en un link
 
-## None
+### None
 
 La cookie se envía en todas las solicitudes que se hagan.
 
 Si la cookie es configurada con el valor None se le debe añadir también el valor secure para que solo se envíe en conexiones https.
 
-# Lax bypass
+## Lax bypass
 
 Provocando una petición Get desde el navegador de la victima se puede llevar a cabo un csrf
 
@@ -229,7 +229,7 @@ Incluso si no se acepta el método GET algunos frameworks permiten modificar el 
 </form>
 ```
 
-## Solución laboratorio **Bypassing SameSite Lax restrictions using GET requests**
+### Solución laboratorio **Bypassing SameSite Lax restrictions using GET requests**
 
 Laboratorio [aqui](https://portswigger.net/web-security/csrf/bypassing-samesite-restrictions/lab-samesite-lax-bypass-via-method-override).
 
@@ -246,7 +246,7 @@ Laboratorio [aqui](https://portswigger.net/web-security/csrf/bypassing-samesite-
 </html>
 ```
 
-## Solución al laboratorio con refresco de cookie
+### Solución al laboratorio con refresco de cookie
 
 Laboratorio [aqui](https://portswigger.net/web-security/csrf/bypassing-samesite-restrictions/lab-samesite-strict-bypass-via-cookie-refresh).
 
@@ -275,7 +275,7 @@ A los 5 segundos de refrescar la sesión con window.open desde la url indicada s
 </script>
 ```
 
-# Strict bypass
+## Strict bypass
 
 Laboratorio [aquí.](https://portswigger.net/web-security/csrf/bypassing-samesite-restrictions/lab-samesite-strict-bypass-via-client-side-redirect)
 
@@ -318,7 +318,7 @@ document.location = 'https://URL-VULNERABLE-XSS/login?username=%3c%73%63%72%69%7
 
 Si queréis profundizar mas en este tipo de vulnerabilidad os recomiendo que le echéis un ojo a esta web: [https://www.blackhillsinfosec.com/cant-stop-wont-stop-hijacking-websockets/](https://www.blackhillsinfosec.com/cant-stop-wont-stop-hijacking-websockets/)
 
-# Bypass referer header
+## Bypass referer header
 
 Hay aplicaciones que validan esta cabecera cuando esta presente en la petición pero no realizan la validación si se omite por lo que se puede llegar a realizar un csrf omitiéndola.
 
