@@ -1,3 +1,22 @@
+---
+weigth: 1
+title: "CSRF"
+date: 2024-12-27T11:24:09+02:00
+draft: false
+author: Antu
+publishDate: 2024-12-27
+tags: ["BSCP", "WEB", "CSRF"]
+categories: ["Vulnerabilidades Web"]
+images: []
+resources: 
+- name: "featured-image"
+  src: "preimagen.jpeg"
+
+lightgallery: true
+
+toc:
+  auto: false
+---
 # Cross Site Request Forgery (CSRF)
 
 # Introducción
