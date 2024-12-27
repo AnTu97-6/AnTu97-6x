@@ -156,7 +156,7 @@ Se puede dar el caso que el token aparezca duplicado en la cookie y en el parám
 
 Hay que encontrar una vía de inyectar la cookie en la sesión del cliente, en este ejemplo se inyecta a través del parámetro de búsqueda.
 
-![image.png](image.png)
+![image](image.png)
 
 Poc:
 
