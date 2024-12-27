@@ -81,13 +81,13 @@ Algunas aplicaciones solo validan los CSRF-token en peticiones POST y no en las 
 
 Cambiando el método a GET y añadiendo los parámetros en la url se puede eludir la validación del csrf Token
 
-Laboratorio  [aqu](https://portswigger.net/web-security/csrf/bypassing-token-validation/lab-token-validation-depends-on-request-method)í.
+Laboratorio  [aquí](https://portswigger.net/web-security/csrf/bypassing-token-validation/lab-token-validation-depends-on-request-method).
 
 ## La validación de CSRF Token depende de si esta presente
 
 Algunas aplicaciones solo validan el csrf token cuando esta presente si lo eliminamos completamente puede que no se haga dicha validación, para comprobarlo basta con realizar la petición sin el parámetro del token y observar si se realiza con éxito.
 
-Laboratorio [aqu](https://portswigger.net/web-security/csrf/bypassing-token-validation/lab-token-validation-depends-on-token-being-present)í.
+Laboratorio [aquí](https://portswigger.net/web-security/csrf/bypassing-token-validation/lab-token-validation-depends-on-token-being-present).
 
 ## El CSRF token no esta vinculado a la sesión
 
@@ -109,7 +109,7 @@ Una PoC podría ser la siguiente:
 </html>
 ```
 
-Laboratorio  [aqu](https://portswigger.net/web-security/csrf/bypassing-token-validation/lab-token-not-tied-to-user-session)í.
+Laboratorio  [aquí](https://portswigger.net/web-security/csrf/bypassing-token-validation/lab-token-not-tied-to-user-session).
 
 ## El CSRF Token esta vinculado a una cookie distinta a la de sesión
 
@@ -150,7 +150,7 @@ En esta PoC se utiliza el csrf y csrfkey del atacante para cambiar la del usuari
 
 ```
 
-Laboratorio [aqu](https://portswigger.net/web-security/csrf/bypassing-token-validation/lab-token-tied-to-non-session-cookie)í.
+Laboratorio [aquí](https://portswigger.net/web-security/csrf/bypassing-token-validation/lab-token-tied-to-non-session-cookie).
 
 ## CSRF token duplicado en la cookie.
 
@@ -178,7 +178,7 @@ Poc:
 
 ```
 
-Laboratorio [aqu](https://portswigger.net/web-security/csrf/bypassing-token-validation/lab-token-duplicated-in-cookie)í.
+Laboratorio [aquí](https://portswigger.net/web-security/csrf/bypassing-token-validation/lab-token-duplicated-in-cookie).
 
 # Samesite cookie
 
@@ -375,4 +375,4 @@ http://vulnerable-website.com.attacker-website.com/csrf-attack
 </html>
 ```
 
-Laboratorio [aqu](https://portswigger.net/web-security/csrf/bypassing-referer-based-defenses/lab-referer-validation-broken)í.
+Laboratorio [aquí](https://portswigger.net/web-security/csrf/bypassing-referer-based-defenses/lab-referer-validation-broken).
