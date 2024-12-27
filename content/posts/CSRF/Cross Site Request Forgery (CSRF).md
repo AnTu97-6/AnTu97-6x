@@ -1,6 +1,6 @@
 ---
 weigth: 1
-title: "CSRF"
+title: "Cross Site Request Forgery (CSRF)"
 date: 2024-12-27T11:24:09+02:00
 draft: false
 author: Antu
@@ -17,8 +17,6 @@ lightgallery: true
 toc:
   auto: false
 ---
-## Cross Site Request Forgery (CSRF)
-
 ## Introducción
 
 En este articulo se va a explicar a modo resumen en que consiste la vulnerabilidad web Cross Site Request Forguery (CSRF) y algunas técnicas de como explotarla en diferentes entornos.
