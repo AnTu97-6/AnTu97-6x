@@ -227,7 +227,7 @@ Incluso si no se acepta el método GET algunos frameworks permiten modificar el 
 </form>
 ```
 
-### Solución laboratorio **Bypassing SameSite Lax restrictions using GET requests**
+### Solución laboratorio Bypassing SameSite Lax restrictions using GET requests
 
 Laboratorio [aqui](https://portswigger.net/web-security/csrf/bypassing-samesite-restrictions/lab-samesite-lax-bypass-via-method-override).
 
