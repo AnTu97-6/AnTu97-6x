@@ -358,9 +358,10 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     MediaWiki= ""
     Plume = ""
     HackTheBox = ""
-    RootMe= "https://tryhackme.com/r/p/magno976"
+    RootMe= ""
     Email = ""
     RSS = ""
+    TryHackMe = "r/p/magno976"
 
   # Page global config
   # 文章页面全局配置
