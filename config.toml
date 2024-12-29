@@ -288,7 +288,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   # 主页的社交信息设置
   [params.social]
     GitHub = ""
-    Linkedin = "in/antonio-m-796855258"
+    Linkedin = "antonio-m-796855258"
     Twitter = ""
     Instagram = ""
     Facebook = ""
