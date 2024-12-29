@@ -288,7 +288,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   # 主页的社交信息设置
   [params.social]
     GitHub = ""
-    Linkedin = "www.linkedin.com/in/antonio-martinez-796855258"
+    Linkedin = "https://www.linkedin.com/in/antonio-m-796855258"
     Twitter = ""
     Instagram = ""
     Facebook = ""
@@ -358,7 +358,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     MediaWiki= ""
     Plume = ""
     HackTheBox = ""
-    RootMe= ""
+    RootMe= "https://tryhackme.com/r/p/magno976"
     Email = ""
     RSS = ""
 
