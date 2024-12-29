@@ -65,7 +65,7 @@ nmap -p22,80,3306,33060 -sCV 192.168.250.146 -oN target
 
 Vemos que en el puerto 80 hay un servidor apache, por lo que pasamos a ver su contenido.
 
-![Untitled](Crane%2075d81ecb6c5b4b01a5f6f7bce328950a/Untitled%203.png)
+![Untitled](Crane%2075d81ecb6c5b4b01a5f6f7bce328950a/Untitled%2031.png)
 
 Nos encontramos ante un login, lo primero que se me ocurre es probar credenciales por defecto como admin:admin y… 
 ![Untitled](Crane%2075d81ecb6c5b4b01a5f6f7bce328950a/Untitled%204.png)
