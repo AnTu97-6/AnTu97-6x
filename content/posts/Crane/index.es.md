@@ -31,6 +31,7 @@ Iniciamos realizando un escaneo con nmap sobre la maquina crane
 nmap -p- --open -T4 -Pn -n -vvv -sS 192.168.250.146  -oG allPorts
 ```
 ![Untitled](Crane%2075d81ecb6c5b4b01a5f6f7bce328950a/Untitled.png)
+
 Exportamos los resultados en formato grepeable para poder copiar y pegar los puertos obtenidos en un nuevo escaneo a través de la función extracPorts.
 
 Esta función es un extra que podéis añadir a vuestra zshrc para agilizar vuestros escaneos.
@@ -50,7 +51,6 @@ function extractPorts(){
     echo -e "[*] Ports copied to clipboard\n"  >> extractPorts.tmp
     cat extractPorts.tmp; rm extractPorts.tmp
 }
-
 ```
 
 ![Untitled](Crane%2075d81ecb6c5b4b01a5f6f7bce328950a/Untitled%201.png)
