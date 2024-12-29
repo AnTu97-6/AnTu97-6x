@@ -593,3 +593,12 @@ rss:
   Newtab: true
   Icon:
     Class: fas fa-rss fa-fw
+
+
+# 072: Root-Me
+tryhackme:
+  Weight: 72
+  Title: TryHackMe
+  Prefix: https://tryhackme.com/
+  Icon:
+    Src: svg/icons/rootme.svg
